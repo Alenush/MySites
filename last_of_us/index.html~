@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Last of us</title>
+
+    <link href="bootstrap.min.css" rel="stylesheet">
+	<link href="styles.css" rel="stylesheet">
+    <script type="text/javascript" src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script type="text/javascript" src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script type="text/javascript" src="bootstrap.min.js"></script> 
+    <script type="text/javascript" src="dynamic.js"></script>
+    <script type="text/javascript" src=http://malsup.github.io/jquery.blockUI.js></script>
+    <link href='https://fonts.googleapis.com/css?family=Anton|Candal' rel='stylesheet' type='text/css'>
+  </head>
+  
+  <body>
+    <div class="site-wrapper">
+
+      <div class="site-wrapper-inner">
+
+        <div class="cover-container">
+
+          <div class="masthead clearfix">
+            <div class="inner">
+              <nav>
+                <ul class="nav masthead-nav">
+                  <li class="active"><a href="#home">Home</a></li>
+                  <li><a href="#about">About</a></li>
+                  <li><a href="#heroes">Heroes</a></li>
+                </ul>
+              </nav>
+            </div>
+          </div>
+
+          <div id='home' class="inner cover">
+            <h1 class="cover-heading1">LAST</h1>
+            <h1 class="cover-heading2">OF</h1>
+            <h1 class="cover-heading3">US</h1>
+            
+          </div>
+        </div>
+		
+      </div>
+		  
+    </div>
+	    <div id='about' class="about_the_game">
+        	<div class="about_fon"> 
+         	<h1>About the game</h1>
+	            <p>The Last of Us is an action-adventure survival horror video game developed by Naughty Dog and published by Sony Computer Entertainment. It was released for the PlayStation 3 on June 14, 2013. An updated version, The Last of Us Remastered, was released for the PlayStation 4 on July 29, 2014. Players control Joel, a man tasked with escorting a young girl named Ellie across a post-apocalyptic United States. <br>
+	            <img src='target.png' id='kill_zombie' style="float:right; cursor:pointer">
+				The Last of Us is played from a third-person perspective; players use firearms and improvised weapons, and can use stealth to defend against hostile humans and cannibalistic creatures infected by a mutated strain of the Cordyceps fungus. "Listen Mode" allows players to locate enemies through a heightened sense of hearing and spatial awareness. Weapons can also be upgraded using items scavenged from the environment. In the game's online multiplayer mode, up to eight players engage in co-operative and competitive gameplay in recreations of single-player settings.</p>
+          </div>
+		</div>
+
+		<div class='growlUI' style="display:none">
+		<h1>You shot me down</h1>
+		<h2>Bang-Bang</h2>
+		</div>
+
+
+	<div id='heroes' class="heroes_part">
+		
+		<div class="container-fluid">
+
+		<div class="row heroes">
+
+		<h1>My Heroes</h1>
+
+		<div class="col-sm-6 blocks">
+
+		  <div class="col-sm-6">
+		      <img src="joel.jpg" width="200" height="300" id='joel' alt="joel">
+		    </div>
+
+ 		 <div class="col-sm-6">
+		      <img src="elli.png" width="200" height="300" id='elli' alt="Elli">
+		    </div>
+
+		</div>
+
+		<div class='col-sm-6 blocks'>
+
+			<div id="joel_block" class="caption" style="display: block">
+		        <h3>Joel</h3>
+		        <p>Joel is the main protagonist and playable character in the video game The Last of Us. Originally from Texas, Joel was in his late 20's when the initial Cordyceps outbreak occurred. Fleeing with his brother Tommy and his daughter Sarah, they got involved in a firefight with a soldier, and Sarah was mortally wounded and died in his arms, leaving him traumatized. In the years that follow, Joel does what it takes to survive. Having spent all this time in a brutal post-apocalyptic world and smarting from his daughter's death, Joel has become a hardened survivor, physically and mentally tough. He has a brutal fighting style and is capable of taking on and defeating men half his age in hand-to-hand combat. Even though Joel acts as one of the main protagonists in the game he still has many traits of a villain, such as selfishness and a capacity for extreme violence and brutal murder all in the name of survival.</p>
+		       
+		    	</div>
+
+		    <div id="elli_block" class="caption" style="display: none;">
+		        <h3>Elli</h3>
+		        <p>Ellie is a fourteen-year-old orphan and the other main playable character in the game, and one of the few characters to have never known life before the infection. Much of her backstory is revealed in the additional content Left Behind and the comic book miniseries The Last of Us: American Dreams. After surviving a bite from the Infected, Ellie is tasked to Joel to be escorted to the Fireflies. Initially annoyed by Joel's surliness, Ellie starts to feel a strong attachment to him. After experiencing a traumatizing encounter in the Winter, in which Ellie is nearly raped and murdered by a band of cannibals, she becomes withdrawn and introverted. A fourteen-year-old survivor, Ellie is "mature beyond her years" as a result of the crcumstances of her environment. </p>
+		       
+		    	</div>
+
+		</div>
+
+		</div>
+
+		</div>	
+	</div>
+
+
+	<div class="footer"> Made by Alenush</div>
+	
+  </body>
+</html>

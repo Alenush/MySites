@@ -1,0 +1,27 @@
+/* put your css code here */
+
+.main_block{
+	text-align: center;
+	padding-bottom:20px;
+}
+
+.home_images{
+	width: 80%;
+	height: 45%;
+}
+
+.carousel-inner > .item > img {
+    margin: 0 auto;
+}
+
+
+
+.carousel-control.left, .carousel-control.right {
+    background-image: none;
+    background-color: #f8f5f0;
+}
+
+.glyphicon{
+	color: #0d0d0d;
+}
+
