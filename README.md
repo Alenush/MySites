@@ -13,4 +13,4 @@ http://alenush.github.io/my_sites/zootopia/
 
 
 Animal task (use of templates):  
-http://alenush.github.io/my_sites/last_of_us/
+http://alenush.github.io/my_sites/coursera_animal_task
