@@ -1,0 +1,42 @@
+@keyframes shadow {
+from {
+  color:white;
+}
+50% {
+  color: grey;
+}
+to {
+  color:black;
+}
+}
+
+h1, h2 {
+    animation: shadow  4s;
+    animation-fill-mode: forwards;
+}
+
+body {
+    background: #143741; color: #f3f3f8;
+    text-align: center; overflow: hidden;
+}
+
+div { width: 3.2rem; height: 3.2rem;
+display: inline-block; position: absolute; top: 0; }
+
+div p { width: 3.2rem; height: 3.2rem; background: #f3f3f8; border-radius: 50%; display: inline-block; opacity: 0; }
+
+div:nth-of-type(5n + 1) p { background-color: #FF4B47; }
+div:nth-of-type(5n + 2) p { background-color: #F58F39; }
+div:nth-of-type(5n + 3) p { background-color: #40E64F; }
+div:nth-of-type(5n + 4) p { background-color: #39BAC5; }
+div:nth-of-type(5n) p { background-color: #E0C93B; }
+input { position: fixed; bottom: 3rem; left: 50%;
+    transform: translateX(-50%); appearance: none;
+    border: 2px solid #f3f3f8; border-radius: .4rem;
+    color: #f3f3f8; background: #143741; line-height: 3; padding: 0 1rem; font-size: 1rem;
+}
+
+a {
+    position: fixed; bottom: 0; left: 50%; transform: translateX(-50%);
+    color: #f3f3f8; background: #143741; padding: 1rem;
+}

@@ -1,0 +1,19 @@
+
+.box {
+    margin: 1em;
+}
+
+.calc_but {
+
+    padding: 3px;
+    text-align: center;
+    margin: 2px;
+    height: 2em;
+    border-radius: 10px;
+
+}
+
+a:hover {
+     text-decoration: none;
+     cursor: pointer;
+}

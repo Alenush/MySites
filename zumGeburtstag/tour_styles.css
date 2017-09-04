@@ -1,0 +1,61 @@
+html {
+    font-family: 'Marck Script', cursive;
+}
+
+
+.header {
+    font-family: 'Marck Script', cursive;
+    /* font-family: 'Cormorant Garamond', serif;*/
+    font-weight:500;
+    text-align:center;
+}
+
+.btn {
+    font-family: 'Cormorant Garamond', serif;
+}
+
+b {
+    font-family: 'Marck Script', cursive;
+}
+
+.photos {
+  padding: .5vw;
+  font-size: 0;
+  display: -ms-flexbox;
+  -ms-flex-wrap: wrap;
+  -ms-flex-direction: column;
+  -webkit-flex-flow: row wrap;
+  flex-flow: row wrap;
+  display: -webkit-box;
+  display: flex;
+  background: url('blossom2.jpg');
+  background-size: cover;
+}
+
+.photos div {
+  -webkit-box-flex: auto;
+  -ms-flex: auto;
+  flex: auto;
+  width: 200px;
+  margin: .5vw;
+}
+
+.photos div img {
+  width: 100%;
+  height: auto;
+}
+
+@media screen and (max-width: 400px) {
+  photos div { margin: 0; }
+  photos { padding: 0; }
+}
+
+
+#uni, #wedding, #sisters, #mailisaj, #children, #life, #after, #end {
+    margin: 0 auto;
+    width: 100%;
+    padding-top: 5em;
+    padding-bottom: 5em;
+    /*background: linear-gradient(to top, #ffffff, #fce94d);*/
+    background: url('sky.png');
+}

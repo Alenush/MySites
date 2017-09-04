@@ -1,0 +1,35 @@
+html, body, .container {
+    height: 100%;
+}
+
+body {
+ background-image: url("flower.jpg");
+ background-position: center center;
+ background-repeat: no-repeat;
+ background-attachment: fixed;
+ background-size: cover;
+ background-color: #464646;
+ }
+
+
+/*@media only screen and (max-width: 767px) {
+    body {  background-image: url("flower.jpg");   }
+} */
+
+.header {
+    color: #ba55d3;
+    font-family: 'Marck Script', cursive;
+    /* font-family: 'Cormorant Garamond', serif;*/
+    font-weight:500;
+}
+
+#home {
+    position: absolute;
+    top: 60%;
+    left: 5%;
+}
+
+.btn {
+    font-family: 'Cormorant Garamond', serif;
+}
+

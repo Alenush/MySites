@@ -1,16 +1,24 @@
 # MySites
-This is the repository of pages, my little sites, some cources works connected with web-development and design =)  
 
-Sites for Coursera tasks. Specialisation "Responsive Website Development and Design"
+#Hobby #web-dev #fun
 
 
-Last of us:  
+Last of us:
 http://alenush.github.io/my_sites/last_of_us/
 
 
-Make tasks for persons (ost Zootopia):  
+Make tasks for persons (ost Zootopia):
 http://alenush.github.io/my_sites/zootopia/
 
 
-Animal task (use of templates):  
+Animal task (use of templates):
 http://alenush.github.io/my_sites/coursera_animal_task
+
+Simple calculator:
+http://alenush.github.io/my_sites/calculator
+
+Geburtstag Geschenk:
+http://alenush.github.io/my_sites/zumGeburtstag
+
+Angular quiz of Game of Thrones:
+http://alenush.github.io/my_sites/angular_quiz
