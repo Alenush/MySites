@@ -15,7 +15,7 @@ Animal task (use of templates):
 http://alenush.github.io/my_sites/coursera_animal_task
 
 Simple calculator:
-http://alenush.github.io/my_sites/calculator
+http://alenush.github.io/my_sites/calculator/index
 
 Geburtstag Geschenk:
 http://alenush.github.io/my_sites/zumGeburtstag
