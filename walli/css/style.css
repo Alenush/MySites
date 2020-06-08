@@ -23,7 +23,6 @@
 }
 
 .after_button{
-  
   font-style: normal;
   font-weight: normal;
   font-size: 12px;
@@ -40,14 +39,22 @@
   font-weight: normal;
   font-size: 12px;
   line-height: 17px;
-  /*display: flex;*/
+  display: flex;
   align-items: center;
   text-align: center;
   letter-spacing: 0.05em;
   text-transform: uppercase;
   color: #000000;
-  padding: 15px;
+
+  width: 200px;
+  height: 50px;
+  left: 278px;
 }
+
+.buton_first:hover {
+ animation: bounce 1s;
+}
+
 
 .buton_second{
   background: #4EA4F6;
@@ -61,8 +68,15 @@
   text-align: center;
   letter-spacing: 0.05em;
   text-transform: uppercase;
-  padding: 15px;
   color: #FEFEFE;
+
+  width: 200px;
+  height: 50px;
+  left: 278px;
+}
+
+.buton_second:hover {
+ animation: bounce 1s;
 }
 
 .walli_image_first{
@@ -84,13 +98,12 @@
 .dark_div{
   display: table-cell;
   height: 100px;
-  padding: 2em;
+  /*padding: 2em;*/
   vertical-align: middle;
+  font:16px;
 }
 
 .p_header{
-
-  
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
@@ -99,16 +112,13 @@
 }
 
 .walli-header{
-  
   font-style: normal;
   font-weight: normal;
   font-size: 57px;
-  /*line-height: 118.4%;*/
   color: #8387AA;
 }
 
 .h4{
-  
   font-style: normal;
   font-weight: 500;
   font-size: 22px;
@@ -117,7 +127,6 @@
 }
 
 p{
-  
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
@@ -157,5 +166,25 @@ a:hover {
 }
  
 .p-15 {
-  padding: 15px;
+  padding-bottom: 13px;
+  padding-top: 26px;
+}
+
+
+
+@keyframes bounce {
+ 0%, 20%, 60%, 100% {
+ -webkit-transform: translateY(0);
+ transform: translateY(0);
+ }
+ 
+ 40% {
+ -webkit-transform: translateY(-20px);
+ transform: translateY(-20px);
+ }
+ 
+ 80% {
+ -webkit-transform: translateY(-10px);
+ transform: translateY(-10px);
+ }
 }
